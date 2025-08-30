@@ -1,0 +1,74 @@
+{
+  "name": "nodejs-api-gateway",
+  "version": "1.0.0",
+  "description": "A comprehensive API Gateway implementation in Node.js with enterprise features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "format": "prettier --write src/",
+    "docker:build": "docker build -t api-gateway .",
+    "docker:run": "docker run -p 3000:3000 api-gateway"
+  },
+  "keywords": [
+    "api-gateway",
+    "microservices",
+    "nodejs",
+    "authentication",
+    "rate-limiting",
+    "caching",
+    "monitoring",
+    "security"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "express-rate-limit": "^6.10.0",
+    "redis": "^4.6.8",
+    "axios": "^1.5.0",
+    "winston": "^3.10.0",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "express-validator": "^7.0.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-http-bearer": "^1.0.1",
+    "node-cron": "^3.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "express-slow-down": "^1.6.0",
+    "express-brute": "^1.0.1",
+    "connect-redis": "^7.1.0",
+    "express-session": "^1.17.3",
+    "cookie-parser": "^1.4.6",
+    "multer": "^1.4.5-lts.1",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "@types/jest": "^29.5.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  }
+}
