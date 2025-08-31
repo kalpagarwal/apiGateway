@@ -120,9 +120,9 @@ class CacheService {
 const cacheService = new CacheService();
 
 module.exports = {
-    CacheService,
-    cacheService,
-    CacheManager,
-    CacheUtils,
-    adminRoutes
+  cacheService,
+  CacheService,
+  CacheManager,
+  CacheUtils,
+  adminRoutes,
 };

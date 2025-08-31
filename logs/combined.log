@@ -1,0 +1,34 @@
+{"level":"info","message":"API key created: Test API Key","timestamp":"2025-08-31 08:53:48"}
+{"level":"info","message":"API key created: Admin API Key","timestamp":"2025-08-31 08:53:48"}
+{"level":"warn","message":"Cache service not initialized, caching disabled","timestamp":"2025-08-31 08:53:48"}
+{"level":"info","message":"User created: admin (admin)","timestamp":"2025-08-31 08:53:48"}
+{"level":"info","message":"User created: user (user)","timestamp":"2025-08-31 08:53:48"}
+{"level":"info","message":"No config file found at /Users/kagarwal/Documents/project/learning/apigateway/config.json, using defaults and environment variables","timestamp":"2025-08-31 08:57:21"}
+{"level":"info","message":"API key created: Test API Key","timestamp":"2025-08-31 08:57:21"}
+{"level":"info","message":"API key created: Admin API Key","timestamp":"2025-08-31 08:57:21"}
+{"level":"warn","message":"Cache service not initialized, caching disabled","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"User created: user (user)","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"User created: admin (admin)","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Cache service initialized","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Initializing router and starting health checks...","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Monitoring initialized","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"API Gateway started on port 3000","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Environment: dev","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"API Gateway listening on localhost:3000","timestamp":"2025-08-31 08:57:22"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","timestamp":"2025-08-31 08:58:22"}
+{"level":"info","message":"Stopping API Gateway...","timestamp":"2025-08-31 08:58:22"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","timestamp":"2025-08-31 08:58:22"}
+{"level":"info","message":"No config file found at /Users/kagarwal/Documents/project/learning/apigateway/config.json, using defaults and environment variables","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"API key created: Test API Key","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"API key created: Admin API Key","timestamp":"2025-08-31 08:58:35"}
+{"level":"warn","message":"Cache service not initialized, caching disabled","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"User created: admin (admin)","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"User created: user (user)","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"Cache service initialized","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"Initializing router and starting health checks...","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"Monitoring initialized","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"API Gateway started on port 3000","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"Environment: dev","timestamp":"2025-08-31 08:58:35"}
+{"level":"info","message":"API Gateway listening on localhost:3000","timestamp":"2025-08-31 08:58:35"}

@@ -22,7 +22,7 @@ class SecurityManager {
             suspiciousPatterns: config.suspiciousPatterns || [
                 /(<script|<\/script|javascript:|on\w+\s*=)/gi,
                 /(union|select|insert|update|delete|drop|create|alter|exec|execute|script|javascript)/gi,
-                /(\.\.\/ /..\\)/g
+                /(\.\.\/|\.\.\\ )/g
             ]
         };
         

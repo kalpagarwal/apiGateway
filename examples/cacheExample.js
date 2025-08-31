@@ -1,7 +1,8 @@
 const express = require('express');
-const { cacheService, CacheUtils } = require('../src/cache');
+const { CacheService, CacheUtils } = require("../src/cache");
 const logger = require('../src/utils/logger');
 
+const cacheService = new CacheService();
 // Example cache configuration
 const cacheConfig = {
     enabled: true,
